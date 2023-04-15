@@ -42,5 +42,5 @@ console.log(removeAdmin(array));
 function ConcatinateArray(arr1, arr2) {
     return arr1.concat(arr2);
 }
-let array2 = [{id:5,name:"robert",age:"28",profession:"doctor"},{id:6, name:"alex",age:"25", profession:"chef"},{id:7, name:"charles", age:"30",profession:"advocate"}];
+const array2 = [{id:5,name:"robert",age:"28",profession:"doctor"},{id:6, name:"alex",age:"25", profession:"chef"},{id:7, name:"charles", age:"30",profession:"advocate"}];
 console.log(ConcatinateArray(array, array2));
